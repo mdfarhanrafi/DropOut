@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
 
       if (!parentFolder) {
         return NextResponse.json(
-          { error: "Parent folder not found" },
+          { error: "Parent folder not found, Create a folder first" },
           { status: 404 }
         );
       }
