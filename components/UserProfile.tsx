@@ -1,10 +1,9 @@
 "use client"
-
 import { useUser, useClerk } from "@clerk/nextjs"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardFooter, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge" // shadcn Badge
+import { Badge } from "@/components/ui/badge"
 import { useRouter } from "next/navigation"
 import { Mail, User, LogOut, Shield, ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils" // For conditional class names
